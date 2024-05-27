@@ -5,8 +5,8 @@ This project is a Django Web Application. Online course portal for users to enro
 
 ## Prerequisites
 
-Python 3.11
-Django 4.2.3
+- Python 3.11
+- Django 4.2.3
 
 ## Setup Instructions
 
@@ -34,8 +34,8 @@ Generate and apply database migrations.
 python manage.py makemigrations onlinecustomer
 python manage.py migrate
 ```
-### 5. Create admin
-Generate and apply database migrations.
+### 5. Create admin profile
+Create admin profile to add features.
 ```
 python manage.py createsuperuser
 ```
